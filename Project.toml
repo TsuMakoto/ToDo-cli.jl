@@ -1,0 +1,7 @@
+name = "ToDoCli"
+uuid = "c5c90296-8649-40a0-a90b-90d389143902"
+authors = ["TsuMakoto <tsukamoto@fusic.co.jp>"]
+version = "0.1.0"
+
+[deps]
+Comonicon = "863f3e99-da2a-4334-8734-de3dacbe5542"
