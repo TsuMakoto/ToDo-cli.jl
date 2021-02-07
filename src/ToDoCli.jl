@@ -1,10 +1,15 @@
-module Task
-
-include("./ToDoCli/lists.jl")
-
-using .List
+module ToDoCli
 
 using Comonicon
+
+include("./ToDoCli/lists.jl")
+include("./ToDoCli/boards.jl")
+
+using .List
+using .Board
+
+@cast List
+@cast Board
 
 @main
 
