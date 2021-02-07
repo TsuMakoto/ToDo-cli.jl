@@ -12,6 +12,9 @@ info = Dict()
 
 set_info(info::Dict) = global info = info
 
+"""
+Display task list.
+"""
 @cast function show(board_name::String; card=false)
   card = parse(Bool, card)
   switch(board_name)
