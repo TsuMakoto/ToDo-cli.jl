@@ -1,4 +1,4 @@
-module ToDoCli
+module Task
 
 using Comonicon
 
