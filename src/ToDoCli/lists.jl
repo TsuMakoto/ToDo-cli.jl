@@ -15,8 +15,7 @@ set_info(info::Dict) = global info = info
 """
 Display task list.
 """
-@cast function show(board_name::String; card=false)
-  card = parse(Bool, card)
+@cast function show(board_name::String; card::Bool=false)
   switch(board_name)
 
   ret = DisplayTask.show_list(Trello, info[:boardid]; is_show_card=card)
